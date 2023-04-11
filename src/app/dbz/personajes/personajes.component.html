@@ -1,0 +1,5 @@
+  <h3>Personajes</h3>
+    <hr>
+    <ul>
+        <li *ngFor="let anime of personajes; let i=index"> {{i+1}}{{anime.nombre}} {{anime.poder | number}}</li>
+    </ul>
