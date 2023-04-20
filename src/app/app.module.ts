@@ -8,11 +8,11 @@ import { MainPageComponent } from './dbz/main-page/main-page.component';
 import { DbzModule } from './dbz/dbz.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    
-  
+
   ],
   imports: [
     BrowserModule,

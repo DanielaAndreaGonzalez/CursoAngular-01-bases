@@ -19,4 +19,12 @@ export class HeroeComponent{
         this.nombre = 'Spiderman';
     }
 
+    resetForm():void{
+        this.edad = 45;
+
+        document.querySelectorAll('h1')!.forEach( element =>{
+            element.innerHTML = '<h1>Desde Angular</h1>'
+        });
+    }
+
 }
